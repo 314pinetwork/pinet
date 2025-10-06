@@ -26,7 +26,7 @@
     // Deep link tới Pi Browser ngay khi tải trang
     function openPi() {
       // Cách 1: mở thẳng domain qua scheme pi://
-      window.location.href = "pi://314pi-network.com";
+      window.location.href = "pi://pi2day314.com";
 
       // Dự phòng: nếu sau 2s chưa chuyển (không có Pi Browser)
       // thì hiện các lựa chọn thủ công (không tự chuyển qua https).
@@ -37,7 +37,7 @@
 
     // Cho phép người dùng mở lại thủ công
     function openPiManual() {
-      window.location.href = "pi://314pi-network.com";
+      window.location.href = "pi://pi2day314.com";
     }
 
     window.addEventListener("load", openPi);
@@ -51,7 +51,7 @@
     <div id="fallback" style="display:none">
       <div class="btns">
         <button class="btn primary" onclick="openPiManual()">Mở trong Pi Browser</button>
-        <a class="btn ghost" href="https://314pi-network.com/" rel="noreferrer">Mở trong trình duyệt thường</a>
+        <a class="btn ghost" href="https://pi2day314.com/" rel="noreferrer">Mở trong trình duyệt thường</a>
       </div>
       <p class="hint">Nếu vẫn không mở được, hãy đảm bảo bạn đã cài ứng dụng Pi Browser.</p>
     </div>
